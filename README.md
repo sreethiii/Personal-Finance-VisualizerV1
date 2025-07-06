@@ -7,7 +7,7 @@ A clean, modern web application to track your income, expenses, and budgets over
 ## ✨ Features
 
 - 📊 **Dashboard Overview** – Visualize income, expenses, and net savings
-- 📅 **Monthly Trends** – Bar chart of monthly expenses (in ₹ INR)
+- 📅 **Monthly Trends** – Bar chart of monthly expenses 
 - 🧾 **Transaction Management** – Add, edit, delete transactions
 - 🧠 **Spending Insights** – Know where your money goes
 - 🎯 **Budget Manager** – Set and compare category-wise budgets
@@ -60,9 +60,11 @@ components/
   ├─ budget-comparison.tsx
   
   └─ spending-insights.tsx
+  
 pages/
 
   └─ index.tsx
+
 app/
 
   └─ page.tsx
