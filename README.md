@@ -47,6 +47,7 @@ npm run dev
 
 ## 📁 Folder Structure
 components/
+
   ├─ monthly-expenses-chart.tsx
   
   ├─ category-pie-chart.tsx
