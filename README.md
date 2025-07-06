@@ -1,30 +1,67 @@
-# Personal finance visualizer
+# 💸 Personal Finance Visualizer
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A clean, modern web application to track your income, expenses, and budgets over time, with insightful charts and category-wise breakdowns. Built with **Next.js**, **TypeScript**, **Tailwind CSS**, **Recharts**, and **ShadCN UI**.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/gummisreethi-gmailcoms-projects/v0-personal-finance-visualizer)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/6mEjGjAedA9)
+---
 
-## Overview
+## ✨ Features
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- 📊 **Dashboard Overview** – Visualize income, expenses, and net savings
+- 📅 **Monthly Trends** – Bar chart of monthly expenses (in ₹ INR)
+- 🧾 **Transaction Management** – Add, edit, delete transactions
+- 🧠 **Spending Insights** – Know where your money goes
+- 🎯 **Budget Manager** – Set and compare category-wise budgets
+- 🥧 **Category Breakdown** – Interactive pie chart for expenses
+- 💡 **Client-Side Rendering** – Optimized for hydration-safe rendering
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend**: Next.js 15, React, TypeScript, Tailwind CSS
+- **UI Components**: ShadCN/UI, Lucide Icons
+- **Charts**: Recharts
+- **State**: useState, useEffect
+- **Deployment**: Vercel
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/Personal-Finance-Visualizer.git
+cd Personal-Finance-Visualizer
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the development server
+```bash
+npm run dev
+```
+
+## 📁 Folder Structure
+components/
+  ├─ monthly-expenses-chart.tsx
+  ├─ category-pie-chart.tsx
+  ├─ transaction-form.tsx
+  ├─ transaction-list.tsx
+  ├─ budget-manager.tsx
+  ├─ budget-comparison.tsx
+  └─ spending-insights.tsx
+pages/
+  └─ index.tsx
+app/
+  └─ page.tsx
 
 ## Deployment
 
-Your project is live at:
+Project is live at:
 
-**[https://vercel.com/gummisreethi-gmailcoms-projects/v0-personal-finance-visualizer](https://vercel.com/gummisreethi-gmailcoms-projects/v0-personal-finance-visualizer)**
+**https://vercel.com/gummisreethi-gmailcoms-projects/personal-finance-visualizer-v1**
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/6mEjGjAedA9](https://v0.dev/chat/projects/6mEjGjAedA9)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
