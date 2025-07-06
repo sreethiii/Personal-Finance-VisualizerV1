@@ -48,15 +48,23 @@ npm run dev
 ## 📁 Folder Structure
 components/
   ├─ monthly-expenses-chart.tsx
+  
   ├─ category-pie-chart.tsx
+  
   ├─ transaction-form.tsx
+  
   ├─ transaction-list.tsx
+  
   ├─ budget-manager.tsx
+  
   ├─ budget-comparison.tsx
+  
   └─ spending-insights.tsx
 pages/
+
   └─ index.tsx
 app/
+
   └─ page.tsx
 
 ## Deployment
